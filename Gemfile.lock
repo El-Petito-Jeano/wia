@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/fractastical/stanford-core-nlp.git
+  revision: 39a86b525581ef4190004f7e1d99662a6e85b388
+  specs:
+    stanford-core-nlp (0.3.3)
+      bind-it
+
+GIT
+  remote: https://github.com/kenpratt/wikipedia-client.git
+  revision: a7b02f2525dc02ded646baadcb49bdb6567c5aa0
+  specs:
+    wikipedia-client (1.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bind-it (0.2.0)
+      rjb
+    diff-lcs (1.1.3)
+    htmlentities (4.3.1)
+    rjb (1.4.3)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.1)
+    rspec-expectations (2.12.0)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bind-it
+  htmlentities
+  rspec
+  stanford-core-nlp!
+  wikipedia-client!
